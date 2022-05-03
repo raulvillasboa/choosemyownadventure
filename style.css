@@ -1,0 +1,30 @@
+/* this is a comment */
+
+body {
+	background-color: #FFA07A;
+	font-family: "Gill Sans", sans-serif;
+	color: #e3f3f1;
+	text-align: center;
+	
+}
+h1 {
+	font-family: Georgia, serif;
+}
+/* # is for id */
+#container {
+	margin: 100px auto;
+	/*width: 600px;*/
+	min-width: 800px;
+	max-width: 950px;
+}
+
+/* . is for class */
+img.link {
+	width: 90%;
+	border: 4mm ridge rgba(250, 240, 80, .9);
+}
+#choices {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 5px;
+}

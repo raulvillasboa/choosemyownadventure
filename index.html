@@ -1,20 +1,41 @@
 <!doctype html>
-<html lang='en'>
-	<head>
-		<title>My website</title>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<h1>My Choose Your Own Adventure</h1>
-		<p>Welcome to my browser</p>
-		<hr>
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>My Choose Your Own Adventure</h1>
+                <p>Welcome to my website.</p>
+                <p>
+                    Menu:
+                    <!-- external link -->
+                    <a href="https://openlab.bmcc.cuny.edu/mmp-100-spring-2022/" target="_blank">MMP 100 Class Site</a>
 
-		<p>
-			My Last Post:
-			<a href='https://openlab.bmcc.cuny.edu/mmp-100-spring-2022/2022/04/04/paranoia/' target="_blank">
-			MMP 100 Class Site</a>
+                    <!-- internal link -->
+                    <a href="about.html">About</a>
+                </p>
+                <hr>
+            </header>
+            <main>
+                <p> You have one free ticket to travel for free! Click where you want to go on this trip. </p>
+                <div id="choices">
 
-		</p>
-		<img src="Images/self portrait.jpg"alt='My self portrait'>
-	</body>
+                    <!-- choice 1 --> 
+                    <a href="pages/paris.html">
+                        <img class="link" src="images/paris.jpg" alt="My self portrait">
+                        <p> Paris</p>
+                    </a>
+                    <!-- choice 2 --> 
+                    <a href="pages/new york.html">
+                        <img class="link" src="images/new york.jpg" alt="My self portrait">
+                        <p>New York</p>
+                    </a>
+                </div>
+            </main>
+        </div>
+    </body>
 </html>
